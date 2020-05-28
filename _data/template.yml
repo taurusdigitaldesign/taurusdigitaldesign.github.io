@@ -6,6 +6,7 @@ color:
   muted: 777
 
 # Font Families
+# '"Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif'
 font:
   primary: 'Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif'
-  secondary: '"Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif'
+  secondary: '"Montserrat", sans-serif'
