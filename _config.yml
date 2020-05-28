@@ -1,8 +1,9 @@
 url: https://taurusdigitaldesign.com
-# baseurl: /agency-jekyll-theme/
+baseurl: ""
 
 # Site settings
 title: Taurus Digital Design
+authors: "QZW"
 email: taurusdigitaldesign@gmail.com
 description: "Taurus Digital Design, offical web site."
 
