@@ -1,5 +1,5 @@
 ---
-title: QilinTeaHouse
+title: Qilin Tea House
 subtitle: Website Design
 layout: default
 modal-id: 1
