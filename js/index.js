@@ -9,3 +9,5 @@ $("#js-rotating").Morphext({
         // Called after the entrance animation is executed.
     }
 });
+
+new WOW().init();
