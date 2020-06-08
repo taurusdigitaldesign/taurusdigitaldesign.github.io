@@ -1,0 +1,64 @@
+header {
+    height: 100vh;
+
+    background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+header mark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #000;
+    opacity: 0.7;
+    z-index: 1;
+}
+
+header box {
+    height: 100%;
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .intro-text {
+    text-align: center;
+    color: #fff;
+}
+
+header .intro-text .intro-lead-in {
+    font-family: {{ site.data.template.font.secondary }};
+    font-size: 3rem;
+    font-weight: 100;
+    line-height: 5rem;
+}
+
+header .intro-text .intro-lead-in1 {
+    font-family: {{ site.data.template.font.secondary }};
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 5rem;
+}
+
+header .intro-text .intro-heading {
+    font-family: {{ site.data.template.font.primary }};
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+
