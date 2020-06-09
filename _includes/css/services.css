@@ -1,0 +1,11 @@
+#services {
+    height: 500px;
+    display: block;
+    text-align: center;
+}
+
+#services div {
+    display: inline-block; 
+    width: 100px; 
+    border:solid 1px black;
+}
