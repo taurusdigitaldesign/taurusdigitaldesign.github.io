@@ -1,11 +1,24 @@
-#services {
-    height: 500px;
-    display: block;
-    text-align: center;
+services {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-#services div {
-    display: inline-block; 
-    width: 100px; 
-    border:solid 1px black;
+services .row {
+  /* width: 100%; */
+  max-width: 1140px;
+}
+
+services .row div {
+  height: 100%;
+  display: inline-block;
+}
+
+services .row div:first-child {
+  width: 540px;
+}
+
+services .row div:last-child {
+  width: 475px;
 }
