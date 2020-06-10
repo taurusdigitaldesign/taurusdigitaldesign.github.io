@@ -1,0 +1,27 @@
+services {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+services .row {
+  max-width: 1140px;
+}
+
+services .row div {
+  height: 100%;
+  display: inline-block;
+}
+
+services .row div:first-child {
+  width: 540px;
+}
+
+services .row div:last-child {
+  width: 475px;
+}
+
+services .row div:last-child img {
+  width: 100%;
+}
