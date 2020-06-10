@@ -1,5 +1,6 @@
 {% include css/header.css %}
 {% include css/services.css %}
 {% include css/workflow.css %}
+{% include css/footer.css %}
 
 {{ content }}
