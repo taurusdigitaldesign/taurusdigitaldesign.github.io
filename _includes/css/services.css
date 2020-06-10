@@ -6,7 +6,6 @@ services {
 }
 
 services .row {
-  /* width: 100%; */
   max-width: 1140px;
 }
 
@@ -21,4 +20,8 @@ services .row div:first-child {
 
 services .row div:last-child {
   width: 475px;
+}
+
+services .row div:last-child img {
+  width: 100%;
 }

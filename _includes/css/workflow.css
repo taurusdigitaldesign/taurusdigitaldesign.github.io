@@ -1,0 +1,173 @@
+workflow {
+  height: 100vh;
+  background-color: #26313c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  color: #fff;
+}
+
+workflow .row {
+  max-width: 1140px;
+}
+
+workflow .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.process-wrapp li > .pro-step::before,
+      .process-wrapp li::before,
+      .process-wrapp li::after {
+        content: "";
+        position: absolute;
+      }
+
+      .process-wrapp {
+        overflow: hidden;
+        display: table;
+        table-layout: fixed;
+        margin: 0 15px;
+      }
+
+      .process-wrapp li {
+        padding: 70px 15px 0 15px;
+        display: table-cell;
+        position: relative;
+      }
+
+      .process-wrapp li:hover {
+        cursor: pointer;
+      }
+
+      .process-wrapp,
+      .process-wrapp li,
+      .process-wrapp li > .pro-step {
+        z-index: 1;
+      }
+
+      .process-wrapp li > .pro-step {
+        display: inline-block;
+        position: relative;
+
+        height: 90px;
+        width: 90px;
+        line-height: 90px;
+        border: 1px solid #fff;
+        font-size: 28px;
+        font-weight: 600;
+        color: #fff;
+      }
+
+      .process-wrapp li,
+      .process-wrapp li > .pro-step {
+        text-align: center;
+      }
+
+      .process-wrapp li > .pro-step,
+      .process-wrapp li > .pro-step::before {
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+      }
+
+      .process-wrapp li::before,
+      .process-wrapp li::after {
+        height: 1px;
+        top: 115px;
+        background: rgba(255, 255, 255, 0.5);
+        width: 30%;
+        z-index: -1;
+        margin: 0;
+      }
+
+      .process-wrapp li::before {
+        left: 0;
+      }
+
+      .process-wrapp li::after {
+        right: 0;
+      }
+
+      .process-wrapp li > .pro-step::before {
+        background: -webkit-gradient(
+          linear,
+          left top,
+          right top,
+          from(#5192e1),
+          to(#23ced5)
+        );
+        background: -webkit-linear-gradient(left, #5192e1, #23ced5);
+        background: -o-linear-gradient(left, #5192e1, #23ced5);
+        background: linear-gradient(90deg, #5192e1, #23ced5);
+        opacity: 0;
+        visibility: hidden;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+      }
+
+      .process-wrapp li p:first-child {
+        font-size: 15px;
+      }
+
+      .process-wrapp li p:last-child {
+        font-size: 13px;
+        margin-bottom: 4px;
+      }
+
+      .process-wrapp li:hover > .pro-step {
+        border-color: transparent;
+        color: #fff;
+      }
+      /* .process-wrapp li.active > .pro-step {
+        border-color: transparent;
+        color: #fff;
+      }
+      .process-wrapp li.active:hover > .pro-step {
+        border-color: transparent !important;
+      } */
+
+      .process-wrapp li:hover > .pro-step::before {
+        opacity: 1;
+        visibility: visible;
+        border-radius: 50%;
+      }
+
+      /* .process-wrapp li.active > .pro-step::before {
+        opacity: 1;
+        visibility: visible;
+        border-radius: 50%;
+      }
+
+      .process-wrapp li.active:hover > .pro-step::before {
+        opacity: 1 !important;
+        visibility: visible !important;
+        border-radius: 50%;
+      }
+      .process-wrapp:hover li.active > .pro-step::before {
+        opacity: 0;
+        visibility: hidden;
+      }
+      .process-wrapp:hover li.active > .pro-step {
+        border-color: #fff;
+      } */
+
+      .process-wrapp li:first-child::before,
+      .process-wrapp li:last-child::after {
+        opacity: 0;
+        visibility: hidden;
+      }
+
+.bottom20 {
+    margin-bottom: 20px;
+}
+
+.bottom25 {
+    margin-bottom: 25px;
+}
