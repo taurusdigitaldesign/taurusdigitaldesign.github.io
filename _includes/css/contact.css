@@ -1,0 +1,14 @@
+contact {
+    margin: 56px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+contact div {
+    font-size: 20px;
+}
+
+contact a {
+    margin: 16px 0;
+}
