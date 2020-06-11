@@ -1,0 +1,15 @@
+works {
+    margin-top: 56px;
+}
+
+works .item {
+    padding: 16px;
+    margin: 30px;
+    display: flex;
+    border: solid 1px #aaa;
+}
+
+works .item>img {
+    width: 230px;
+    margin-right: 24px;
+}
