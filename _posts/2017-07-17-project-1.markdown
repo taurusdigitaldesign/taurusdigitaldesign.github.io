@@ -1,0 +1,15 @@
+---
+title: Everest
+subtitle: Website Design
+layout: default
+modal-id: 1
+date: 2017-07-17
+img: everest.png
+thumbnail: everest-thumbnail.png
+alt: image-alt
+project-date: April 2014
+client: Start Bootstrap
+category: Web Development
+description: Everest, the tallest mountain in the world; so why do we call ourselves Everest? We believe cooking is like climbing; every stage of achievement like a camp on the way up to the top. We want to be the best at what we do, and one day we will reach the summit of Everest.
+
+---
