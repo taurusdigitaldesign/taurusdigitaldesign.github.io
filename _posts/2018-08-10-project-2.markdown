@@ -1,0 +1,15 @@
+---
+title: Jayme
+subtitle: Web3D
+layout: default
+modal-id: 2
+date: 2018-08-10
+img: Jayme.png
+thumbnail: Jayme-thumbnail.png
+alt: image-alt
+project-date: April 2014
+client: Start Bootstrap
+category: Web3D
+description: A Web3D Project using Babylon.js and Canvas
+
+---
