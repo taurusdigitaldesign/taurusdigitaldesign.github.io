@@ -1,0 +1,15 @@
+---
+title: Taurus Digital Design
+subtitle: Website Design
+layout: default
+modal-id: 5
+date: 2020-06-10
+img: taurus.png
+thumbnail: taurus-thumbnail.png
+alt: image-alt
+project-date: April 2014
+client: Start Bootstrap
+category: Web Development
+description: Our Website using Jekyll and Github Pages Service
+
+---
